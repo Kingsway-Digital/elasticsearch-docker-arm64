@@ -17,7 +17,7 @@ docker tag ghcr.io/baladins/elasticsearch-docker-arm64:6.8.24 elasticsearch-arm:
 To run it:
 
 ```
-docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node"  -e "xpack.ml.enabled=false" elasticsearch-arm:6.8
+docker run -p 9207:9200 -p 9307:9300 -e "discovery.type=single-node"  elasticsearch-arm:6.8
 ```
 
 # Publish the image to Github Registry
